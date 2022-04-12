@@ -1,6 +1,3 @@
-import sys
-import time
-
 class BrainfuckInterpreter:
     def __init__(self, bfcode):
         self.ptr = 0

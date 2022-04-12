@@ -83,4 +83,6 @@ class BrainfuckInterpreter:
         return _all_loops
 
 if __name__ == "__main__":
-    bf = BrainfuckInterpreter("+++++++++++++[>+++++<-]>.>++++++++.") # insert brainfuck code here
+    bf = BrainfuckInterpreter("""
+    >++++++++[<+++++++++>-]<.>++++[<+++++++>-]<+.+++++++..+++.>>++++++[<+++++++>-]<++.------------.>++++++[<+++++++++>-]<+.<.+++.------.--------.>>>++++[<++++++++>-]<+.>++++++++++.
+    """) # insert brainfuck code here

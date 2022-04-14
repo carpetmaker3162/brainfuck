@@ -1,9 +1,5 @@
 from brainfuck import BrainfuckInterpreter
 
-if __name__ == "__main__":
-    prog = """++++++++[>++++[>++>+++>+++>+<<<<-]
-    >+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.
-    +++.------.--------.>>+.>++."""
-    
-    not_verbose = BrainfuckInterpreter(prog)
-    verbose = BrainfuckInterpreter(prog, verbose=True)
+prog = "-[------->+<]>-.-[->+++++<]>++.+++++++..+++.[--->+<]>-----.---[->+++<]>.-[--->+<]>---.+++.------.--------."
+BrainfuckInterpreter(prog, verbose=False)
+BrainfuckInterpreter(prog, verbose=True)
